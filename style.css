@@ -1,0 +1,166 @@
+
+*, footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+body {
+    background: linear-gradient(#eff1fa, #e9ecf8, #609ed4);
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 20px;
+}
+
+h1:hover {
+    transition: 0.2s;   
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea {
+    resize: none;
+}
+
+.input-texto {
+    margin-top: 65px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(123, 123, 245);
+    box-shadow: 20px 10px 15px #356ea9;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+
+.informacao {
+    margin-left: 10px;
+    
+}
+
+.mensagens-erro li::before {
+    content: url(imagens/mensagem-de-erro_resized.png);
+    vertical-align: middle;
+    
+}
+
+.mensagens-erro li {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+button {
+    color: #133a64;
+    width: 205px;
+    height: 40px;
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 2px 5px 2px #356ea9;
+    margin-right: 1rem;
+}
+
+button:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background: #d0dfed;
+}
+
+.btn-codificar {
+    background-color: #0a3871;
+    color: white;
+}
+
+.btn-decodificar {
+    margin-left: 30px;
+    background-color: white;
+    color: #0a3871;
+}
+
+.container {
+    background-color: white;
+    margin: 40px 0;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 20rem;
+    height: 22rem;
+    text-align: center;
+    box-shadow: 8px 20px 35px #356ea9;
+}
+
+.resultado {
+    position: relative;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 15rem;
+}
+
+.resultado:placeholder-shown {
+    background-image: url(imagens/High\ quality\ products\ 1\ 1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.resultado:not(:placeholder-shown) {
+    background-color: white;
+}
+
+.invisivel {
+    display: none;
+}
+
+.btn-copiar {
+    background-color: white;
+    color: #0a3871;
+}
+
+footer {
+    text-align: center;
+    margin-top: 7.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.redes {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.redes * {
+    vertical-align: middle;
+}
+
+.redes a {
+    margin: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.redes a:hover {
+    transition: 0.5s;
+    opacity: 70%;
+    color: #0a3871;
+}
+
+.credito {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 18px;
+}

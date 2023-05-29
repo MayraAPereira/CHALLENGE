@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador de Texto</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="imagens/lupas.png">
+
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>
+            <img class="vetor" src="imagens/Vector.png" alt="Logo da Alura."
+            width="25" height="45" id="logo">
+    </h1>     
+</header>
+<main class="main">
+    <section>
+        <textarea class="input-texto" cols="45" rows="10" placeholder="Digite seu texto..."></textarea>
+
+        <div class="informacao">
+            <ul class="mensagens-erro"></ul>
+        </div>
+
+        <div class="botoes">
+            <button type="button" class="btn-criptografar">Criptografar</button>
+            <button type="button" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </section>
+
+    <section class="container">
+        <textarea class="resultado" cols="40" rows="10" placeholder=" " readonly></textarea>
+        <button type="button" class="invisivel btn-copiar">Copiar</button>
+    </section>
+</main>
+
+<footer>
+    <div class="redes">
+        
+    <a href="https://github.com/MayraAPereira" title="MayraAPereira | GitHub" target="_blank">            
+        <img src="imagens/github.png" alt="Logo do GitHub em formato circular."
+        width="20" height="20" id="github">
+        GitHub
+    </a>
+     <a href="https://www.linkedin.com/in/mayra--pereira/" title="Mayra Pereira | LinkedIn" target="_blank">
+        <img src="imagens/linkedin.png" alt="Logo do LinkedIn em formato circular"
+        width="20" height="20" id="linkedin">
+        LinkedIn
+    </a>
+    </div>
+    
+    <div class="credito">
+        <p>&#169; Desenvolvido por Mayra Pereira - 2023</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
